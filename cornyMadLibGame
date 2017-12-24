@@ -1,0 +1,52 @@
+// Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    string input[20];
+    cout << "what is your name?" << endl;
+    cin >> input[1];
+    cout << "Enter a vegetable (capitalize it)" << endl;
+    cin >> input[2];
+    cout << "Choose: big or small (or either of their synonyms)" << endl;
+    cin >> input[3];
+    cout << "Enter an animal (singular)" << endl;
+    cin >> input[4];
+    cout << "Enter something you would never major in, but would consider minoring in" << endl;
+    cin >> input[5];
+    cout << "Enter a place at school (gym, library, etc.)" << endl;
+    cin >> input[6];
+    cout <<"Enter any single letter" << endl;
+    cin >> input[7];
+    cout << "Enter a shoe brand" << endl;
+    cin >> input[8];
+    cout << "Enter an adjective" << endl;
+    cin >> input[9];
+    cout << "Enter a verb (not ending in -ing)" << endl;
+    cin >> input[10];
+    cout << "Enter a popular pharmacy/convenience store" << endl;
+    cin >> input[11];
+    cout << "Enter a soda brand" << endl;
+    cin >> input[12];
+    cout << "Enter a plural inanimate object that you use once a week" << endl;
+    cin >> input[13];
+    cout << "Enter a company that you think makes a TON of money" << endl;
+    cin >> input[14];
+    
+    cout << endl << endl << endl;
+    
+    cout << "My name is "<< input[1] << ", and I am currently attending "<< input[2] << " University. The campus is so " << input[3] << endl << " that it makes me feel like a(n) " 
+    << input[4] << ". As a(n) " << input[5] << " major, I spend most of my time at the "<< input[6] << ". " << endl << 
+    "The work is definitely challenging, but as long as I pay attention in class, I will get at least a(n) " << input [7] << "+." << endl <<
+    "My favorite teacher this semester is Professor " << input[8] << ". (S)He knows how to explain the most " << input[9] << endl <<
+    "concepts in a way that is easy for us students to understand. It would be awesome if I could become Professor "<< input[8] << "'s assistant, "<<endl<<
+    "that way I can also learn how to "<< input[10] << "; I hear (s)he's 2nd to none when it comes to that. " << endl << 
+    "After college, I plan to work at the headquarters for " << input[11] << " or " << input[12] << "." << endl <<
+    "Sources have told me these companies give their employees unlimited "<< input[13] << ". "<<endl<<
+    "I definitely don't have the experience to get hired at either of those companies right away, so for now, I plan to work at " << input[14] << endl <<
+    "just to gain experience." << endl;
+    
+    return 0;
+
+}
